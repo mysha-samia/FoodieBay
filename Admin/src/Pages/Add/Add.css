@@ -1,0 +1,82 @@
+.add{
+    font-size:16px;
+   
+}
+
+
+.add form{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.add-image-upload img{
+    width:120px;
+    border-radius: 5px;
+    border: 1px solid tomato;
+}
+.add-product-name{
+   width: max(70%,280px);
+  
+}
+.add-product-description textarea {
+  width:480px;  
+  height:max(70%,150px);
+  border: 1px solid tomato;
+}
+.add-product-name input,.add-product-description textarea{   
+  padding:10px;
+  border-radius: 5px;
+  border: 1px solid tomato;
+}
+.add-category{
+ display:flex;
+ gap:30px;
+ margin-top:80px;
+
+}
+.add-category-price{
+    display:flex;
+    border: 1px solid tomato;
+    border-radius: 5px;
+
+}
+.add-product-category select{
+width:160px;
+padding:10px;
+border: 1px solid tomato;
+color:white;
+background-color: rgb(245, 238, 238);
+color:tomato;
+border-radius: 5px;
+
+}
+.add-price input{
+    width:160px;
+    padding:10px;   
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
+.marginForAll{
+ margin-top: 10px;
+ margin-bottom: 10px;
+ color:rgb(148, 46, 28);
+ font-size: 18px;
+ font-weight: 600;
+}.upload-image{
+    width:120PX;
+    height:70px;
+    border: 1px solid tomato;
+}
+.add-btn{
+    height:50px;
+    width:120px;
+    background-color: tomato;
+    color:white;
+    border-radius:25px;
+    cursor:pointer;
+}
+.select-category option{
+    background-color: rgb(245, 238, 238);
+    color:tomato;
+
+}

@@ -16,7 +16,8 @@
     cursor: pointer;
 }
 .food-item-image{
-    width:100%;
+    width:100px;
+    height:100px;
  
     border-radius:15px 15px 0px 0px;
     object-fit: cover;

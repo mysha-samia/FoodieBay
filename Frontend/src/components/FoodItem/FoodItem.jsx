@@ -7,11 +7,11 @@ const FoodItem = ({id,name,image,price,description,category}) => {
     //to add on cart
     //it is not good to set the functionality for 32 items one state variable that is why we will use Usecontext
     // const [Itemcount,setItemCount]= useState (0);
-    const {cartItems,setCartItems,addCartItems,removeCartItems}= useContext(StoreContext)
+    const {cartItems,setCartItems,addCartItems,removeCartItems,url}= useContext(StoreContext)
   return (
     <div className='food-item'>
         <div className="food-item-img-container">
-            <img src={image} alt="" className="food-item-img" />
+            <img src={url+"/image/"+image} alt="" className="food-item-img" />
          {!cartItems[id]
           ? <img onClick={()=>{
             // setItemCount((prev)=>prev+1);

@@ -8,6 +8,11 @@
     transition:3s;
  
 }
+.footer-para{
+    
+color:rgb(155, 37, 16);
+ 
+}
 .app-download-platforms{
     display: flex;
     justify-content: center;

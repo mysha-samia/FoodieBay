@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family:Outfit;
+
+}
+body{
+  min-height:100vh;
+  background-color: #ffff;
+}
+a{
+  text-decoration:none;
+  color:inherit;
+
+}
+hr{
+  border: none;
+  height:1px;
+  background-color:grey;
+}
+
+/* App.css or Sidebar.css */
+.web-content {
+  display: flex; /* Arrange items in a row */
+}
+
+.sidebar {
+  width: 200px; /* Adjust the width of the sidebar */
+  flex-shrink: 0; /* Prevent the sidebar from shrinking */
+  background-color: #f8f9fa; /* Optional: Sidebar background color */
+}
+
+.route-content {
+  flex-grow: 1; /* Take the remaining space next to the sidebar */
+  padding: 20px; /* Add padding for the route content */
+}
+.flex-col{
+  display:felx;
+  flex-direction:column;
+}

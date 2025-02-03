@@ -2,6 +2,7 @@
    margin-top:30px;
 }
 .food-display h2{
+    color: rgb(139, 50, 34);
     font-size: max(2vw,24px);
     font-weight: 600;
 }
